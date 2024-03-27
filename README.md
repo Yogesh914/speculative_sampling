@@ -1,5 +1,5 @@
 # 🎛️ Accelerating Large Language Model Decoding with Speculative Sampling
-[llm_decoding.pdf](llm_decoding.pdf)<!-- {"embed":"true", "preview":"true"} -->
+Annotated Paper Notes: [llm_decoding.pdf](llm_decoding.pdf)<!-- {"embed":"true", "preview":"true"} -->
 ## Abstract
 * The paper introduces the idea of a sampling algorithm called speculative sampling, which according to their results speeds up the LLM decoding process by 2-2.5 times the speed, without compromising the accuracy
 * The basic idea is running two models in parallel, one smaller model that is faster, called the **draft model**, and a bigger model called the **target model**
